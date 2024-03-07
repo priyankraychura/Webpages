@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 30px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+header nav{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: black;
+}
+header nav ul{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+header nav ul li{
+    display: inline-block;
+    padding-left: 30px;
+    line-height: 30px;
+    color: white;
+}
+.top{
+    height: 70vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-image: url(./images/a38016_08f1465c87b14f6b8ff181c7e7f1f99e.jpg);
+    /* background-position: center; */
+    background-attachment: fixed;
+}
+.top h1{
+    font-size: 55px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+}
+.top span{
+    font-family: "times new roman", times, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+}
+.posts{
+    height: 347vh;
+    width: 65.36%;
+    border: 1px solid transparent;
+    margin-top: -100px;
+    margin-left: 17.5%;
+    background-color: white;
+}
+.posts .post1, .post2, .post3{
+    width: 95%;
+    height: 110vh;
+    border: 1px solid lightgray;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 3.5%;
+}
+.posts img{
+    width: 940px;
+}
+.posts .text{
+    padding-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    /* border: 1px solid black; */
+}
+.posts .user-img{
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    margin-top: -5.5px;
+}
+.posts .text .user p{
+    margin-left: 46px;
+    font-size: 13px;
+    font-family: "times new roman", times, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.posts .text h3{
+    font-size: 28px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.posts span{
+    font-family: "times new roman", times, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.posts .text h3:hover,  span:hover{
+    color: green;
+}
+.posts .text hr{
+    margin-top: 20px;
+    width: 100%;
+}
+.posts .text .view-comm{
+    margin-top: 15px;
+}
+.posts .text .view-comm i{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.posts .text .view-comm .bi-chat-left{
+    margin-left: 15px;
+}
+.posts .text .view-comm .fa-heart{
+    color: red;
+    float: right;
+    margin-top: 3px;
+    padding-left: 7px;
+
+}
+.posts .text .view-comm p{
+    float: right;
+}
+.footer{
+    height: 230px;
+    width: 100%;
+    border-top: 1px solid grey;
+    margin-top: 80px;
+}
+.footer .subscribe{
+    height: 100%;
+    width: 32.5%;
+    /* border: 1px solid black; */
+    margin-left: 19%;
+    float: left;
+    padding-top: 70px;
+}
+.footer .subscribe .p{
+    display: block;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: "times new roman", times, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer .subscribe input{
+    height: 43px;
+    width: 236px;
+    border: 1px solid grey;
+    font-size: 15px;
+    text-align: center;
+
+}
+.footer .subscribe input:hover{
+    border: 2px solid black;
+}
+.footer .subscribe button{
+    height: 43px;
+    width: 146px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 8px;
+    font-family: "times new roman", times, serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer .subscribe button:hover{
+    background-color: grey;
+}
+.footer .follow{
+    height: 100%;
+    width: 32.5%;
+    /* border: 1px solid black; */
+    float: left;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.footer .follow i{
+    font-size: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.footer .follow p{
+    font-size: 14px;
+    padding-top: 5px;
+}
